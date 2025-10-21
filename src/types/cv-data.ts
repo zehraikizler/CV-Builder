@@ -72,18 +72,41 @@ export interface Education {
   courses: string[];
 }
 
+// --- Aktiviteler ---
+export interface Activities {
+  involvements: string;
+  achievements: string;
+}
+
+// --- Gönüllü Çalışmalar ---
+export interface Volunteer {
+  id: string;
+  organization: string;
+  position: string;
+  url: string;
+  startDate: string;
+  endDate: string;
+  summary: string;
+  highlights: string[];
+  isVolunteeringNow: boolean;
+}
+
+// --- Ödüller ---
+export interface Award {
+  id: string;
+  title: string;
+  date: string;
+  awarder: string;
+  summary: string;
+}
+
 // --- Ana CV Veri Yapısı ---
 export interface CvData {
   basics: BasicDetails;
   skills: Skills;
   work: WorkExperience[];
   education: Education[];
-
-  // Ek olarak ihtiyaca yonelik; -Aktiviteler (Katilimlar-Basarilar), -Gonullu calismalar, -Oduller eklenecek.
-  // activities: {
-  //     involvements: string;
-  //     achievements: string;
-  // };
-  // volunteer: any[];
-  // awards: any[];
+  activities: Activities;
+  volunteer: Volunteer[];
+  awards: Award[];
 }

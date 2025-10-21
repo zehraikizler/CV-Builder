@@ -1,0 +1,214 @@
+{
+  "basics": {
+    "name": "Arda Yılmaz",
+    "label": "Full Stack Developer",
+    "image": "https://i.pravatar.cc/150?img=65",
+    "email": "arda.yilmaz@devmail.com",
+    "phone": "+90 555 123 4567",
+    "url": "https://arda-yilmaz-portfolio.com",
+    "summary": "Müşteri odaklı, 5 yıllık tecrübeye sahip Full Stack Geliştirici. Modern web uygulamaları, API geliştirme ve bulut çözümleri konusunda uzmanım. Ölçeklenebilir, test edilebilir ve sürdürülebilir kod yazmaya odaklanıyorum.",
+    "location": {
+      "address": "Kızılay Cd. 12",
+      "postalCode": "06100",
+      "city": "Ankara",
+      "countryCode": "TR",
+      "region": "İç Anadolu"
+    },
+    "relExp": "5 years",
+    "totalExp": "7 Years",
+    "objective": "Yenilikçi teknolojileri kullanarak karmaşık iş problemlerine çözüm getiren, uluslararası bir projede takım lideri olarak yer almayı hedefliyorum. Organizasyonun teknolojik dönüşümüne katkıda bulunmak en büyük hedefimdir.",
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "arda-yilmaz-dev",
+        "url": "https://www.linkedin.com/in/arda-yilmaz-dev/"
+      },
+      {
+        "network": "github",
+        "username": "ardaydev",
+        "url": "https://github.com/ardaydev"
+      },
+      {
+        "network": "website",
+        "username": "portfolio",
+        "url": "https://arda-yilmaz-portfolio.com"
+      }
+    ]
+  },
+  "skills": {
+    "languages": [
+      {
+        "name": "TypeScript",
+        "level": 95
+      },
+      {
+        "name": "Python",
+        "level": 85
+      },
+      {
+        "name": "Go",
+        "level": 60
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "Next.js",
+        "level": 90
+      },
+      {
+        "name": "NestJS",
+        "level": 85
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Docker",
+        "level": 80
+      },
+      {
+        "name": "Kubernetes",
+        "level": 65
+      }
+    ],
+    "libraries": [
+      {
+        "name": "React Query",
+        "level": 85
+      },
+      {
+        "name": "Zustand",
+        "level": 70
+      }
+    ],
+    "databases": [
+      {
+        "name": "PostgreSQL",
+        "level": 90
+      },
+      {
+        "name": "MongoDB",
+        "level": 70
+      }
+    ],
+    "practices": [
+      {
+        "name": "Microservices",
+        "level": 75
+      },
+      {
+        "name": "CI/CD",
+        "level": 80
+      },
+      {
+        "name": "TDD",
+        "level": 65
+      }
+    ],
+    "tools": [
+      {
+        "name": "GitLab",
+        "level": 90
+      },
+      {
+        "name": "Jira",
+        "level": 85
+      },
+      {
+        "name": "VS Code",
+        "level": 95
+      }
+    ]
+  },
+  "work": [
+    {
+      "id": "w1",
+      "name": "GlobalTech Solutions",
+      "position": "Senior Full Stack Developer",
+      "url": "https://globaltech.com",
+      "startDate": "May 2022",
+      "isWorkingHere": true,
+      "endDate": null,
+      "highlights": [
+        "Yeni nesil e-ticaret platformunun microservice mimarisini kurdu.",
+        "API yanıt sürelerini %40 azaltan bir önbellekleme sistemi tasarladı."
+      ],
+      "summary": "<ul><li>Next.js, TypeScript ve PostgreSQL kullanarak yüksek performanslı kullanıcı arayüzleri geliştirdim.</li><li>NestJS tabanlı RESTful API'ler için test kapsamını %90'a çıkardım.</li><li>AWS Lambda ve S3 kullanarak sunucusuz (serverless) çözümlerin entegrasyonunu yönettim.</li></ul>",
+      "years": ""
+    },
+    {
+      "id": "w2",
+      "name": "LocalApp Studio",
+      "position": "Software Developer",
+      "url": "https://localapp.com",
+      "startDate": "Feb 2019",
+      "isWorkingHere": false,
+      "endDate": "Apr 2022",
+      "highlights": [
+        "3 mobil uygulama ve 5 web projesinin backend ve frontend gelişimine liderlik etti."
+      ],
+      "summary": "<ul><li>React ve Node.js ile küçük ve orta ölçekli işletmelere özel uygulamalar geliştirdim.</li><li>MongoDB veritabanı optimizasyonu ve veri modellemesi yaptım.</li><li>Takım içi kod standartlarını belirleyerek yeni geliştiricilere mentorluk yaptım.</li></ul>",
+      "years": "3 years"
+    }
+  ],
+  "education": [
+    {
+      "id": "e1",
+      "institution": "Orta Doğu Teknik Üniversitesi (ODTÜ)",
+      "url": "https://www.metu.edu.tr",
+      "studyType": "Yüksek Lisans",
+      "area": "Yazılım Mühendisliği",
+      "startDate": "2020",
+      "isStudyingHere": false,
+      "endDate": "2022",
+      "score": "3.8/4.0",
+      "courses": ["Dağıtık Sistemler", "Makine Öğrenimi"]
+    },
+    {
+      "id": "e2",
+      "institution": "Hacettepe Üniversitesi",
+      "url": "https://www.hacettepe.edu.tr",
+      "studyType": "Lisans",
+      "area": "Bilgisayar Mühendisliği",
+      "startDate": "2015",
+      "isStudyingHere": false,
+      "endDate": "2019",
+      "score": "3.2/4.0",
+      "courses": []
+    }
+  ],
+  "activities": {
+    "involvements": "<ul><li>Türkiye Açık Kaynak Platformu'nda (TAKP) gönüllü eğitmen olarak yer aldı.</li><li>Yerel teknoloji buluşmalarında 'Modern Frontend State Yönetimi' üzerine sunumlar gerçekleştirdi.</li><li>Şirket içi bilgi paylaşımını artırmak için haftalık 'Tech Talk' serisini başlattı.</li></ul>",
+    "achievements": "<ul><li>Udemy: Next.js ve Serverless Geliştirme Uzmanlık Sertifikası (2023)</li><li>GlobalTech Solutions tarafından 'Yılın En İyi İnovasyon Projesi' Ödülü (2023)</li><li>Hacettepe Üniversitesi 'Hackathon' birinciliği (2018)</li></ul>"
+  },
+  "volunteer": [
+    {
+      "id": "v1",
+      "organization": "Coder Dostları Derneği",
+      "position": "Mentor",
+      "url": "https://coderdostlari.org",
+      "startDate": "2023-03-01",
+      "endDate": "2024-03-01",
+      "summary": "Genç yazılımcılara kariyer ve teknik konularda aylık mentorluk oturumları düzenledim.",
+      "highlights": [
+        "15'ten fazla gence iş bulma sürecinde doğrudan destek sağladı."
+      ],
+      "isVolunteeringNow": false
+    }
+  ],
+  "awards": [
+    {
+      "id": "a1",
+      "title": "En Yüksek Performans Ödülü",
+      "date": "2023-12-01",
+      "awarder": "GlobalTech Solutions",
+      "summary": "Proje teslim tarihlerine sürekli uyum ve %100 test kapsamı nedeniyle takdim edildi."
+    },
+    {
+      "id": "a2",
+      "title": "İnovasyon Lideri Sertifikası",
+      "date": "2022-08-01",
+      "awarder": "LocalApp Studio",
+      "summary": "Yeni bir teknoloji stack'ini başarıyla projeye entegre etme liderliği için verildi."
+    }
+  ]
+}
